@@ -1,0 +1,57 @@
+.banner {
+    width: 100%;
+    height: 650px;
+    background-origin: content-box;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.titleWrap {
+    position: absolute;
+    max-width: 50%;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-20%);
+    margin-left: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: all .2s ease;
+}
+
+.titleWrap:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titleWrap h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.titleWrap button {
+    color: #fff;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.titleWrap button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: all .2s ease-in-out;
+}
+
+.btnRight {
+    margin: 0 30px;
+}
+
+.titleWrap p {
+    font-weight: 500;
+} 

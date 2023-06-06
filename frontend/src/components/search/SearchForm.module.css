@@ -1,0 +1,58 @@
+.formWrap {
+    width: 600px;
+    background-color: #fff;
+    margin: 100px auto 0 auto;
+    position: relative;
+}
+
+.formWrap input {
+    width: 590px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.formWrap svg {
+    position: absolute;
+    width: 25px;
+    top: 15px;
+    right: 15px;
+}
+
+.formWrap div {
+    text-align: right;
+    padding: 30px 30px;
+    border-top: 2px solid rgb(44, 160, 255);
+}
+
+.formWrap a {
+    margin: 0 10px;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.formWrap button {
+    margin: 0 10px;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.resetBtn {
+    color: #666;
+}
+
+.searchBtn {
+    background-color: rgb(44, 160, 255);
+    color: #fff;
+}
+
+.formWrap button:hover {
+    filter:brightness(1.1);
+    cursor: pointer;
+}

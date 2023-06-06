@@ -1,0 +1,40 @@
+.trendWrap {
+    margin: 0 20px;
+    margin-bottom: 50px;
+}
+
+.trendWrap h3 {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.list {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 0 -5px;
+}
+
+.list::-webkit-scrollbar {
+    height: 10px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #444;
+}
+
+.filmPoster {
+    height: 200px;
+    width: 10%;
+    box-sizing: border-box;
+    margin: 10px 10px;
+    background-position: center;
+    background-size:cover;
+    transition: all .2s ease;
+}
+
+.filmPoster:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
